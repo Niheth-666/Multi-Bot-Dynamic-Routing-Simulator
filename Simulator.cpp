@@ -203,7 +203,7 @@ void printGrid(vector<Bot>& bots, int time_step) {
     cout << "\n";
 }
 
-// when bot stuck then recalc path
+// when bot got stuck then recalc path
 void handle_replanning(Bot& bot, int time_step) {
     int sr = bot.r, sc = bot.c;
     int gr = bot.goalR, gc = bot.goalC;
