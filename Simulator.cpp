@@ -49,7 +49,7 @@ enum BotState {
     RE_PLANNING
 };
 
-// bot information store here
+// bot info store here
 struct Bot {
     int id;
     int r, c;
