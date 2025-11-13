@@ -34,3 +34,34 @@ Example terminal output:
 <img width="671" height="865" alt="Screenshot 2025-11-13 184602" src="https://github.com/user-attachments/assets/c19a420f-9307-4dcb-81c2-fc81bf44735f" />
 
 <img width="556" height="829" alt="Screenshot 2025-11-13 184620" src="https://github.com/user-attachments/assets/1d76152e-9dc2-4e2a-9c02-5ac3b7a1d3eb" />
+
+
+---
+
+## ⚙️ How It Works
+
+1. The program first generates a grid with random obstacles.  
+2. You input start and goal positions for each bot.  
+3. Each bot runs **Dijkstra’s algorithm** to compute the shortest path to its goal.  
+4. Bots move step-by-step:
+   - If a cell is occupied → bot waits.
+   - If blocked for a while → bot re-plans its route.
+5. The simulation runs until all bots reach their goals.
+
+---
+
+## 🧠 Algorithm
+
+- **Pathfinding:** Dijkstra’s Algorithm  
+- **Graph Construction:** 4-direction adjacency (up, down, left, right)
+- **Conflict Resolution:** Position reservation and waiting mechanism  
+- **Dynamic Replanning:** Triggered if a bot cannot move forward  
+
+---
+
+## 🛠️ How to Run
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/<your-username>/MultiBot-Routing-Simulator.git
+cd MultiBot-Routing-Simulator
