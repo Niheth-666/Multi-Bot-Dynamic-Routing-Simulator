@@ -45,7 +45,7 @@ Example terminal output:
 3. Each bot runs **Dijkstra’s algorithm** to compute the shortest path to its goal.  
 4. Bots move step-by-step:
    - If a cell is occupied → bot waits.
-   - If blocked for a while → bot re-plans its route.
+   - If blocked for a while, → bot re-plans its route.
 5. The simulation runs until all bots reach their goals.
 
 ---
