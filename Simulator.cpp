@@ -50,6 +50,7 @@ enum BotState {
 };
 
 // bot info store here
+//peanut
 struct Bot {
     int id;
     int r, c;
