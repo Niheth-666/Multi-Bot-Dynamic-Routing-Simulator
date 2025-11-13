@@ -7,16 +7,16 @@ Each bot independently finds and follows the shortest path while avoiding collis
 
 ## ✨ Features
 
-- 🧭 **Dynamic Path Planning** — Dijkstra’s shortest path algorithm  
-- 🚧 **Random Obstacle Generation** — realistic warehouse setup  
-- 🚙 **Multiple Bots** — each with unique start and goal positions  
-- 🔁 **Re-planning & Waiting Logic** when conflicts occur  
-- 🎨 **Color-Coded Visualization** — terminal-based live animation  
-- ⚙️ Customizable **grid size** and **number of bots**
+-  **Dynamic Path Planning** — Dijkstra’s shortest path algorithm  
+-  **Random Obstacle Generation** — realistic warehouse setup  
+-  **Multiple Bots** — each with unique start and goal positions  
+-  **Re-planning & Waiting Logic** when conflicts occur  
+-  **Color-Coded Visualization** — terminal-based live animation  
+-  Customizable **grid size** and **number of bots**
 
 ---
 
-## 🖥️ Example Simulation
+## Example Simulation
 
 Each frame displays a grid:
 - `#` → obstacle  
