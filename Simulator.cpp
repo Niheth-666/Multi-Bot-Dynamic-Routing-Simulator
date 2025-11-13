@@ -415,3 +415,4 @@ int main() {
     cout << GREEN << "\nall bot reach goal in " << time_step << " steps\n" << RESET;
     return 0;
 }
+
