@@ -221,7 +221,7 @@ void handle_replanning(Bot& bot, int time_step) {
     }
 }
 
-// ask user for valid cell
+// ask user for valid cell posn
 void getValidPosition(int& outR, int& outC, const string& prompt) {
     while (true) {
         int r, c;
